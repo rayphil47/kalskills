@@ -1,0 +1,65 @@
+/*General CSS*/
+*{
+	margin: 0px;
+	/*padding: 0px;*/
+	font-size: 30px;
+
+}
+#nav-links{
+	list-style-type: none;
+	padding: 0px;
+	position: center;
+	
+}
+
+li, a{
+	display: inline;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	margin: 0;
+	transition: background-color 0.6;
+	text-align: right;
+	position: relative;
+	weigth: 70;
+}
+
+a:hover{
+	background-color: blue;
+}
+
+#nav{
+	background-color: Green;
+	margin: 0px;
+}
+
+#image-area{
+	background-image: linear-gradient(to top, rgba(109, 213, 250, 0.3), rgba(41, 128, 185, 1)), url(mountain.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+#Home-link{
+	color: white;
+	background-color: cadet blue;
+	text-align: center;
+	position: absolute;
+	width: 15px;
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+	#nav ul li a{
+		display: block;
+		text-align: center;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+}
